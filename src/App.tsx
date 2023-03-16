@@ -1,8 +1,14 @@
-function App() {
+import { List } from './List'
 
+export function App() {
   return (
-    <h1>hello world</h1>
+    <div>
+      <List
+        author="Jhon"
+        content="lorem"
+      
+      />
+    </div>
   )
 }
 
-export default App
