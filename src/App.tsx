@@ -8,6 +8,11 @@ export function App() {
         content="lorem"
       
       />
+      <List
+        author="marcelus"
+        content="doublelorem"
+      
+      />
     </div>
   )
 }
