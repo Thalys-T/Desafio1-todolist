@@ -1,23 +1,20 @@
-import { List } from './List'
-import { Header } from './components/Header'
+import { useState } from "react";
+import { Header } from "./components/Header";
+import { TaskList } from "./components/TaskList";
+import { TaskSubmitForm, TaskTypes } from "./components/TaskSubmitForm";
 
-import './global.css';
+import styles from "./App.module.scss";
 
 export function App() {
-  return (
-    <div>
-      <Header/>
-      <List
-        author="Jhon"
-        content="lorem"
-      
-      />
-      <List
-        author="marcelus"
-        content="doublelorem"
-      
-      />
-    </div>
-  )
-}
+  const [tasks, setTasks] = useState<TaskTypes[]>([]);
 
+  return (
+    <>
+      <Header />
+      <div className={styles.content}>
+        <TaskSubmitForm tasks={tasks} setTasks={setTasks} />
+        <TaskList tasks={tasks} setTasks={setTasks} />
+      </div>
+    </>
+  );
+}
