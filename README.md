@@ -44,13 +44,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## 🚀 Instalação e uso
 
-```bash
-# Clone o repositório
-git clone https://github.com/mateusabelli/ignite-todo-app.git
-
-# Acesse a pasta do projeto
-cd ignite-todo-app
-
 # Instale as dependências
 npm install
 
