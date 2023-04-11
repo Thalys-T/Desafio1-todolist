@@ -104,5 +104,3 @@ npm run dev
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE.md) para mais detalhes.
 
 ---
-
-Feito com 💜 por [Mateus Abelli](https://github.com/mateusabelli)
