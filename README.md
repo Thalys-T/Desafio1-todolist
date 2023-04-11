@@ -9,7 +9,6 @@
 <p align="center">
  <a href="#-sobre-o-projeto">Sobre</a> •
  <a href="#-funcionalidades">Funcionalidades</a> • 
- <a href="#-layout">Layout</a> • 
  <a href="#-tecnologias-utilizadas">Tecnologias</a> • 
  <a href="#-instalação-e-uso">Instalação</a> • 
  <a href="#-licença">Licença</a>
