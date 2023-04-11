@@ -7,13 +7,6 @@
 </p>
 
 <p align="center">
-  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/mateusabelli/ignite-todo-app">
-  <img alt="GitHub" src="https://img.shields.io/github/license/mateusabelli/ignite-todo-app">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/mateusabelli/ignite-todo-app">
-  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/mateusabelli/ignite-todo-app?style=social">
-</p>
-
-<p align="center">
  <a href="#-sobre-o-projeto">Sobre</a> •
  <a href="#-funcionalidades">Funcionalidades</a> • 
  <a href="#-layout">Layout</a> • 
@@ -37,32 +30,9 @@ Todo App foi criado para resolução do desafio do curso Ignite (trilha atualiza
 
 ## ☑ Funcionalidades
 
-- [x] Inserir tarefas
-  - [x] Inserção com enter
-  - [x] Verificação de campo vazio
-- [x] Alterar estado da tarefa
-  - [x] Marcar como concluído
-  - [x] Apagar tarefa
-- [x] Responsividade em telas menores
-  - [x] Redução do tamanho de fonte
-  - [x] Redução do tamanho de elementos
-- [x] Navegação total por teclado
-
-
-## 🎨 Layout
-
-### Desktop
-
-<p align="left"> 
-  <img src="./.github/desktop-screenshot.png" width="70%"">
-</p>
-
-### Mobile
-
-<p align="left">       
-  <img src="./.github/mobile-screenshot-1.png" width="35%">
-  <img src="./.github/mobile-screenshot-2.png" width="35%">
-</p>
+Inserir tarefas
+Marcar tarefas concluidas
+Remover tarefas
 
 ## 🔨 Tecnologias utilizadas
 
@@ -72,9 +42,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - **[TypeScript](https://www.typescriptlang.org/)**
 - **[Sass](https://sass-lang.com/)**
 - **[Vite](https://vitejs.dev/)**
-
-> Veja o arquivo [package.json](https://github.com/mateusabelli/ignite-todo-app/blob/main/package.json)
-
 
 ## 🚀 Instalação e uso
 
@@ -98,7 +65,7 @@ npm run dev
 ## 📝 Licença
 
 <a href="https://opensource.org/licenses/MIT">
-    <img alt="GitHub" src="https://img.shields.io/github/license/mateusabelli/ignite-todo-app">
+
 </a>
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE.md) para mais detalhes.
